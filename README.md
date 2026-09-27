@@ -27,3 +27,9 @@ trips `sf:FieldLevelSecurity` (also `snippet_level = MEDIUM`, AI-fix eligible in
 and keeps the anchor shape the case is about. `manifest.json` carries `staging_rule` / `staging_line` per case
 (`PropSame11` fires on the `return x;` line 5, not the assignment line 4). The pytest pack `CD9750_80_Apex_Extraction_Cases.json`
 is unchanged.
+
+Second staging scan (webhook on push): `sf:FieldLevelSecurity` fired on 19/29 rewritten lines — every method, property
+getter, constructor, static-initializer and instance-initializer case. The 10 remaining cases (E01–E08, F06, F08) put the
+violation on a **class-level field initializer**; apex-pmd does not evaluate SOQL there and the naming rules are gated off
+for INSTANCE fields, so no MEDIUM AI-eligible rule can fire on a field line. Those 10 are exercised by the pytest pack only
+(`staging_rule: null` in `manifest.json`).

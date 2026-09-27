@@ -667,8 +667,9 @@
   "expected_outcome": "error",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E02",
@@ -678,8 +679,9 @@
   "expected_outcome": "error",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E03",
@@ -689,8 +691,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E04",
@@ -700,8 +703,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E05",
@@ -711,8 +715,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E06",
@@ -722,8 +727,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 2
+  "staging_rule": null,
+  "staging_line": 2,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E07",
@@ -733,8 +739,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 2
+  "staging_rule": null,
+  "staging_line": 2,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E08",
@@ -744,8 +751,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 2
+  "staging_rule": null,
+  "staging_line": 2,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "E09",
@@ -854,8 +862,9 @@
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  },
  {
   "case_id": "F07",
@@ -876,7 +885,8 @@
   "expected_outcome": "error",
   "expected_anchor": null,
   "expected_start": null,
-  "staging_rule": "sf:FieldLevelSecurity",
-  "staging_line": 3
+  "staging_rule": null,
+  "staging_line": 3,
+  "staging_note": "class-level field initializer: no MEDIUM AI-eligible rule fires on a field line (FieldLevelSecurity skips field initializers; naming rules are gated for INSTANCE fields). Covered by the pytest pack only."
  }
 ]
