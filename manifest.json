@@ -1,0 +1,722 @@
+[
+ {
+  "case_id": "A01",
+  "class": "SearchController",
+  "category": "property_same_line",
+  "line": 6,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 5
+ },
+ {
+  "case_id": "A02",
+  "class": "SearchController",
+  "category": "property_same_line",
+  "line": 11,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 10
+ },
+ {
+  "case_id": "A03",
+  "class": "PropSame03",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A04",
+  "class": "PropSame04",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A05",
+  "class": "PropSame05",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A06",
+  "class": "PropSame06",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A07",
+  "class": "PropSame07",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A08",
+  "class": "PropSame08",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A09",
+  "class": "PropSame09",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A10",
+  "class": "PropSame10",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A11",
+  "class": "PropSame11",
+  "category": "property_same_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A12",
+  "class": "PropSame12",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A13",
+  "class": "PropSame13",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A14",
+  "class": "PropSame14",
+  "category": "property_same_line",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A15",
+  "class": "PropSame15",
+  "category": "property_same_line",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A16",
+  "class": "PropSame16",
+  "category": "property_same_line",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 4
+ },
+ {
+  "case_id": "A17",
+  "class": "PropSame17",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A18",
+  "class": "PropSame18",
+  "category": "property_same_line",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 4
+ },
+ {
+  "case_id": "A19",
+  "class": "PropSame19",
+  "category": "property_same_line",
+  "line": 2,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "A20",
+  "class": "PropSame20",
+  "category": "property_same_line",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B01",
+  "class": "PropNext01",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B02",
+  "class": "PropNext02",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B03",
+  "class": "PropNext03",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B04",
+  "class": "PropNext04",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B05",
+  "class": "PropNext05",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B06",
+  "class": "PropNext06",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B07",
+  "class": "PropNext07",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B08",
+  "class": "PropNext08",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B09",
+  "class": "PropNext09",
+  "category": "property_next_line",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B10",
+  "class": "PropNext10",
+  "category": "property_next_line",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B11",
+  "class": "PropNext11",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "B12",
+  "class": "PropNext12",
+  "category": "property_next_line",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C01",
+  "class": "MethodCase01",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C02",
+  "class": "MethodCase02",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C03",
+  "class": "MethodCase03",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C04",
+  "class": "MethodCase04",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C05",
+  "class": "MethodCase05",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C06",
+  "class": "MethodCase06",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C07",
+  "class": "MethodCase07",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C08",
+  "class": "MethodCase08",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C09",
+  "class": "MethodCase09",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C10",
+  "class": "MethodCase10",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C11",
+  "class": "MethodCase11",
+  "category": "method",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C12",
+  "class": "MethodCase12",
+  "category": "method",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 3
+ },
+ {
+  "case_id": "C13",
+  "class": "MethodCase13",
+  "category": "method",
+  "line": 7,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "C14",
+  "class": "MethodCase14",
+  "category": "constructor",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 3
+ },
+ {
+  "case_id": "C15",
+  "class": "MethodCase15",
+  "category": "constructor",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 3
+ },
+ {
+  "case_id": "C16",
+  "class": "MethodCase16",
+  "category": "method",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 3
+ },
+ {
+  "case_id": "C17",
+  "class": "MethodCase17",
+  "category": "method",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 3
+ },
+ {
+  "case_id": "C18",
+  "class": "MethodCase18",
+  "category": "method",
+  "line": 2,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D01",
+  "class": "StaticCase01",
+  "category": "static_initializer",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D02",
+  "class": "StaticCase02",
+  "category": "static_initializer",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D03",
+  "class": "StaticCase03",
+  "category": "static_initializer",
+  "line": 2,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D04",
+  "class": "StaticCase04",
+  "category": "static_initializer",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D05",
+  "class": "StaticCase05",
+  "category": "static_initializer",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D06",
+  "class": "StaticCase06",
+  "category": "static_initializer",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D07",
+  "class": "StaticCase07",
+  "category": "static_initializer",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D08",
+  "class": "StaticCase08",
+  "category": "static_initializer",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D09",
+  "class": "StaticCase09",
+  "category": "static_initializer",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "D10",
+  "class": "StaticCase10",
+  "category": "static_initializer",
+  "line": 5,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 4
+ },
+ {
+  "case_id": "E01",
+  "class": "FalseAnchor01",
+  "category": "false_anchor",
+  "line": 3,
+  "expected_outcome": "error",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E02",
+  "class": "FalseAnchor02",
+  "category": "false_anchor",
+  "line": 3,
+  "expected_outcome": "error",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E03",
+  "class": "FalseAnchor03",
+  "category": "false_anchor",
+  "line": 3,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E04",
+  "class": "FalseAnchor04",
+  "category": "false_anchor",
+  "line": 3,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E05",
+  "class": "FalseAnchor05",
+  "category": "false_anchor",
+  "line": 3,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E06",
+  "class": "FalseAnchor06",
+  "category": "false_anchor",
+  "line": 2,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E07",
+  "class": "FalseAnchor07",
+  "category": "false_anchor",
+  "line": 2,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E08",
+  "class": "FalseAnchor08",
+  "category": "false_anchor",
+  "line": 2,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "E09",
+  "class": "FalseAnchor09",
+  "category": "false_anchor",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "E10",
+  "class": "FalseAnchor10",
+  "category": "false_anchor",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "E11",
+  "class": "FalseAnchor11",
+  "category": "false_anchor",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "E12",
+  "class": "FalseAnchor12",
+  "category": "false_anchor",
+  "line": 3,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "F01",
+  "class": "Limit01",
+  "category": "known_limitation",
+  "line": 4,
+  "expected_outcome": "xfail",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "F02",
+  "class": "Limit02",
+  "category": "known_limitation",
+  "line": 4,
+  "expected_outcome": "xfail",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "F03",
+  "class": "Limit03",
+  "category": "known_limitation",
+  "line": 8,
+  "expected_outcome": "xfail",
+  "expected_anchor": null,
+  "expected_start": 2
+ },
+ {
+  "case_id": "F04",
+  "class": "Limit04",
+  "category": "known_limitation",
+  "line": 3,
+  "expected_outcome": "xfail",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "F05",
+  "class": "Limit05",
+  "category": "known_limitation",
+  "line": 3,
+  "expected_outcome": "xfail",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "F06",
+  "class": "Limit06",
+  "category": "known_limitation",
+  "line": 3,
+  "expected_outcome": "class_fallback",
+  "expected_anchor": null,
+  "expected_start": null
+ },
+ {
+  "case_id": "F07",
+  "class": "Limit07",
+  "category": "known_limitation",
+  "line": 4,
+  "expected_outcome": "extract",
+  "expected_anchor": null,
+  "expected_start": 3
+ },
+ {
+  "case_id": "F08",
+  "class": "Limit08",
+  "category": "known_limitation",
+  "line": 3,
+  "expected_outcome": "error",
+  "expected_anchor": null,
+  "expected_start": null
+ }
+]
