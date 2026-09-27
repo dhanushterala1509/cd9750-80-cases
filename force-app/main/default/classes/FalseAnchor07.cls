@@ -1,3 +1,3 @@
 public class FalseAnchor07 {
-    public static String term = ApexPages.currentPage().getParameters().get('q');
+    public static List<Account> term = [SELECT Id, Name FROM Account WHERE Name = :ApexPages.currentPage().getParameters().get('q')];
 }

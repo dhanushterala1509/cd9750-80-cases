@@ -1,3 +1,3 @@
 public class StaticCase03 {
-    static { String term = ApexPages.currentPage().getParameters().get('q'); }
+    static { List<Account> term = [SELECT Id, Name FROM Account WHERE Name = :ApexPages.currentPage().getParameters().get('q')]; }
 }

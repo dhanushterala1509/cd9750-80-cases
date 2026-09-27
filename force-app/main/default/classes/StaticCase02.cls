@@ -1,5 +1,5 @@
 public class StaticCase02 {
     static { // initialize request state
-    String term = ApexPages.currentPage().getParameters().get('q');
+    List<Account> term = [SELECT Id, Name FROM Account WHERE Name = :ApexPages.currentPage().getParameters().get('q')];
 }
 }

@@ -1,3 +1,3 @@
 public class FalseAnchor08 {
-    public Map<String,String> terms = new Map<String,String>{'q' => ApexPages.currentPage().getParameters().get('q')};
+    public Map<Id,Account> terms = new Map<Id,Account>([SELECT Id, Name FROM Account WHERE Name = :ApexPages.currentPage().getParameters().get('q')]);
 }

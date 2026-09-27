@@ -1,6 +1,6 @@
 public class StaticCase08 {
     static {
     String a = 'safe';
-    String term = ApexPages.currentPage().getParameters().get('retURL');
+    List<Account> term = [SELECT Id, Name FROM Account WHERE Name = :ApexPages.currentPage().getParameters().get('retURL')];
 }
 }

@@ -1,7 +1,7 @@
 public class StaticCase04 {
     static {
     if (ApexPages.currentPage() != null) {
-        String term = ApexPages.currentPage().getParameters().get('q');
+        List<Account> term = [SELECT Id, Name FROM Account WHERE Name = :ApexPages.currentPage().getParameters().get('q')];
     }
 }
 }

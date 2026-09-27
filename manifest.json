@@ -6,7 +6,9 @@
   "line": 6,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 5
+  "expected_start": 5,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 6
  },
  {
   "case_id": "A02",
@@ -15,7 +17,9 @@
   "line": 11,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 10
+  "expected_start": 10,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 11
  },
  {
   "case_id": "A03",
@@ -24,7 +28,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A04",
@@ -33,7 +39,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A05",
@@ -42,7 +50,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A06",
@@ -51,7 +61,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A07",
@@ -60,7 +72,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A08",
@@ -69,7 +83,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "A09",
@@ -78,7 +94,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "A10",
@@ -87,7 +105,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "A11",
@@ -96,7 +116,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "A12",
@@ -105,7 +127,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A13",
@@ -114,7 +138,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A14",
@@ -123,7 +149,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "A15",
@@ -132,7 +160,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "A16",
@@ -141,7 +171,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 4
+  "expected_start": 4,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "A17",
@@ -150,7 +182,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "A18",
@@ -159,7 +193,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 4
+  "expected_start": 4,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "A19",
@@ -168,7 +204,9 @@
   "line": 2,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 2
  },
  {
   "case_id": "A20",
@@ -177,7 +215,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "B01",
@@ -186,7 +226,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B02",
@@ -195,7 +237,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B03",
@@ -204,7 +248,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B04",
@@ -213,7 +259,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B05",
@@ -222,7 +270,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B06",
@@ -231,7 +281,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B07",
@@ -240,7 +292,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "B08",
@@ -249,7 +303,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "B09",
@@ -258,7 +314,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "B10",
@@ -267,7 +325,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 5
  },
  {
   "case_id": "B11",
@@ -276,7 +336,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "B12",
@@ -285,7 +347,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "C01",
@@ -294,7 +358,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C02",
@@ -303,7 +369,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C03",
@@ -312,7 +380,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C04",
@@ -321,7 +391,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C05",
@@ -330,7 +402,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C06",
@@ -339,7 +413,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C07",
@@ -348,7 +424,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C08",
@@ -357,7 +435,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C09",
@@ -366,7 +446,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "C10",
@@ -375,7 +457,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C11",
@@ -384,7 +468,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "C12",
@@ -393,7 +479,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 3
+  "expected_start": 3,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "C13",
@@ -402,7 +490,9 @@
   "line": 7,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 7
  },
  {
   "case_id": "C14",
@@ -411,7 +501,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 3
+  "expected_start": 3,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "C15",
@@ -420,7 +512,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 3
+  "expected_start": 3,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "C16",
@@ -429,7 +523,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 3
+  "expected_start": 3,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "C17",
@@ -438,7 +534,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 3
+  "expected_start": 3,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "C18",
@@ -447,7 +545,9 @@
   "line": 2,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 2
  },
  {
   "case_id": "D01",
@@ -456,7 +556,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "D02",
@@ -465,7 +567,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "D03",
@@ -474,7 +578,9 @@
   "line": 2,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 2
  },
  {
   "case_id": "D04",
@@ -483,7 +589,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "D05",
@@ -492,7 +600,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "D06",
@@ -501,7 +611,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "D07",
@@ -510,7 +622,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "D08",
@@ -519,7 +633,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 4
  },
  {
   "case_id": "D09",
@@ -528,7 +644,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "D10",
@@ -537,7 +655,9 @@
   "line": 5,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 4
+  "expected_start": 4,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 5
  },
  {
   "case_id": "E01",
@@ -546,7 +666,9 @@
   "line": 3,
   "expected_outcome": "error",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "E02",
@@ -555,7 +677,9 @@
   "line": 3,
   "expected_outcome": "error",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "E03",
@@ -564,7 +688,9 @@
   "line": 3,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "E04",
@@ -573,7 +699,9 @@
   "line": 3,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "E05",
@@ -582,7 +710,9 @@
   "line": 3,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "E06",
@@ -591,7 +721,9 @@
   "line": 2,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 2
  },
  {
   "case_id": "E07",
@@ -600,7 +732,9 @@
   "line": 2,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 2
  },
  {
   "case_id": "E08",
@@ -609,7 +743,9 @@
   "line": 2,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 2
  },
  {
   "case_id": "E09",
@@ -618,7 +754,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "E10",
@@ -627,7 +765,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "E11",
@@ -636,7 +776,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "E12",
@@ -645,7 +787,9 @@
   "line": 3,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "F01",
@@ -654,7 +798,9 @@
   "line": 4,
   "expected_outcome": "xfail",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "F02",
@@ -663,7 +809,9 @@
   "line": 4,
   "expected_outcome": "xfail",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "F03",
@@ -672,7 +820,9 @@
   "line": 8,
   "expected_outcome": "xfail",
   "expected_anchor": null,
-  "expected_start": 2
+  "expected_start": 2,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 8
  },
  {
   "case_id": "F04",
@@ -681,7 +831,9 @@
   "line": 3,
   "expected_outcome": "xfail",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 3
  },
  {
   "case_id": "F05",
@@ -690,7 +842,9 @@
   "line": 3,
   "expected_outcome": "xfail",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "F06",
@@ -699,7 +853,9 @@
   "line": 3,
   "expected_outcome": "class_fallback",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  },
  {
   "case_id": "F07",
@@ -708,7 +864,9 @@
   "line": 4,
   "expected_outcome": "extract",
   "expected_anchor": null,
-  "expected_start": 3
+  "expected_start": 3,
+  "staging_rule": "sf:UnescapedSource",
+  "staging_line": 4
  },
  {
   "case_id": "F08",
@@ -717,6 +875,8 @@
   "line": 3,
   "expected_outcome": "error",
   "expected_anchor": null,
-  "expected_start": null
+  "expected_start": null,
+  "staging_rule": "sf:FieldLevelSecurity",
+  "staging_line": 3
  }
 ]

@@ -16,3 +16,14 @@ changed in cs-ai-codefix PR #25 `src/extraction_utils.py`. Every positive case c
 
 `manifest.json` maps each case id to its class, category, violation line and expected extraction outcome.
 Fixtures compile-validated on a Salesforce org (API 62.0).
+
+
+## Staging note (2026-09-27)
+
+`sf:UnescapedSource` (apex-pmd) only reports the **`return ApexPages.currentPage().getParameters().get(..)`** form.
+The 29 cases whose target line *assigns* the parameter to a variable/field therefore produced no MEDIUM-level issue
+on the first staging scan. Their target lines were rewritten to a SOQL query bound to the same parameter, which
+trips `sf:FieldLevelSecurity` (also `snippet_level = MEDIUM`, AI-fix eligible in every scope) on exactly the same line
+and keeps the anchor shape the case is about. `manifest.json` carries `staging_rule` / `staging_line` per case
+(`PropSame11` fires on the `return x;` line 5, not the assignment line 4). The pytest pack `CD9750_80_Apex_Extraction_Cases.json`
+is unchanged.
