@@ -33,3 +33,22 @@ getter, constructor, static-initializer and instance-initializer case. The 10 re
 violation on a **class-level field initializer**; apex-pmd does not evaluate SOQL there and the naming rules are gated off
 for INSTANCE fields, so no MEDIUM AI-eligible rule can fire on a field line. Those 10 are exercised by the pytest pack only
 (`staging_rule: null` in `manifest.json`).
+
+## AvoidPublicFields — global-field gate (CD-9473 / CD-9710), added 2026-10-06
+
+`APF01`–`APF10` exercise the rule `sf:AvoidPublicFields` together with the AI Fix visibility rule: a violation on a
+**`global`** field is reported but **AI Fix is not offered** (changing a global member can break managed-package
+subscribers); a violation on a **`public`** field gets AI Fix as usual — even inside a `global class`.
+
+| Class | Field | Rule fires? | AI Fix |
+|---|---|---|---|
+| APF01_PublicField | `public String data;` | yes | offered |
+| APF02_GlobalField | `global String data;` | yes | **hidden** |
+| APF03_GlobalStaticField | `global static Integer counter` | no (rule skips static fields) | – |
+| APF04_PublicFieldInGlobalClass | `public String data;` in a `global class` | yes | offered |
+| APF05_MixedGlobalAndPublic | `global String exposed;` / `public String internalValue;` | yes ×2 | hidden / offered |
+| APF06_GlobalFieldInInnerClass | `global String data;` in a global inner class | yes | **hidden** |
+| APF07_GlobalFieldWithInitializer | `global String region = 'EMEA';` | yes | **hidden** |
+| APF08_GlobalTransientField | `transient global String token;` | yes | **hidden** |
+| APF09_GlobalConstant | `global static final Integer MAX_RETRY` | no (constants allowed) | – |
+| APF10_GlobalProperty | `global String region { get; set; }` | no (property) | – |
